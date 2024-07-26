@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "polar-office-422517-t9",
+  "private_key_id": "4c708b5993176de625e5d3db9363d5fa131387a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8r9/XvnmN+7r4\nDfZw7vR05ej4ecls0NiYZvf5jGhrAX4mR8JF3M79u6vuOnHkFURIMJfyxrVaq4eH\nx9ZNN4W/C/bMGSTfze3gAbWcEnHHCfAbZlbkntOWdR5c7wdd3divEKjzz+mHUrB2\nEpe0zQiDcQxfC9cKdZl3M4PeJV0rc5jxfop3FQ0NWXEv1Y5gCQCtp7zCzkyJ3L4z\ntu8Wg8kIWQB6Iq7FWhQ4QHMzs7C1MLVt6owrWdhVbR3B3AxireE8gXsVb0Q+ZGRr\n6VtlKk+mwMZ+w+8bfo3zuS6lEKz0cUpPAMd1XkPf9rFpPLEMV5KHhAshQH0yF73i\n2yExD01bAgMBAAECggEAWkosqn/miccyLl38Fgl6Z+/WfgRFGzGK2862Da+fDcle\nlLHU6HpjgG5MNQi5lCOLE6JRK6bjhFo9Vf+N8FBHy2ZNuFe12fSgRgd7YI5A7LY4\nM9xSaz8HT+GGYIEu/L9aX1dxCY5tmMg8UZvPBYDxeHhhq5+uTL5+a9h2Wxh1D4OE\niuWuS9QoGbJtLVfDb5KRyuixeDY3pdeGO7BAiBFdVc6cuPnxtTm/ZNX8f/LfLsUA\nZihoNq4Nj9ZfUuOPfDhnfaNHoL2UD9iLPVnir6yZjMYCgonnYfKrmgWOxKRuNpWA\nWXWWM6aFAixyuUpynxXehM1LTcATkaiD1jb429A33QKBgQDeWZ+/12AbjN2X0TCR\nWe20mR6Maj3Wkj0aO+bU+GR7MMtWr7CLemrylSQOXd/AMTS2hgUVuAoKJE/skFOf\n5NLCospijRMtYXCg7N2QWWj/tL85Ke0S6qEQZKXLSWBKb0U2U0d2y9oIW6zrpYSW\n7ENnafsJtG+WDwH4mz1Q3i1IfwKBgQDZPg/NJ4NgnIxllOOVyTjKrJ6KX7WoQ5Ju\nk0ad4E/Wumx0kxky8bL8BEP0Kw9rS87oy3D0lRjGmNGsdn3vaOG0mQPbD1wm8vzb\nUCXYcfnERm7MCDRZXIy+kYs1VTCEx+Af7SDz85ZGmtOym5eD+fYKoPeeiEtLU0u7\nqnDhEnqtJQKBgEAALCtcIx3K/j2kyQYNjI5fRJvGOOZ6UXwrodXLaaDL+ruI9pgv\nNHl+1FIOU0lO4I1pJi2KO9mPejHtmSR9CO1dTkPvt4VodrLbeysBkWeI70HU/5hi\nUNoXHmHVTRIf1Rw9/GQFaUzelnd9vRx0BTLPHqM8fKIEz9xvUsbkLMShAoGAXig1\nBxFKMvSHMXv/zCsDz2xT5tumy4BGFmEE6WaQlBwG59vdvyPdFLfwkAKd0z5vNpz+\nnzOEIoeX0S0mVj7aHMF5V1fn9AW7LH8neBGmVLjGSu5/af/gDLTeZkY/Gj3bWVsY\nvkNkbcOrX61qVUxgpKixymd+Yu5+U5+C/zpYK3UCgYADYvgMKYdbLNA4BkQHhRJT\nONOjoV8TS6esXvWGcEaTHxVW+gnCd6Sli55XOKrloFNXixlhkuOLzflQSO4+tBfM\n0qehJCxCKphfPYK3X0q8pjgkmmcphkHsvG2z1Nt9EgN1/Fd6hq8T2iak7GMkTJt8\nqg957HNyT0RDB6ecBbWknA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraformgcp@polar-office-422517-t9.iam.gserviceaccount.com",
+  "client_id": "102318748140380142117",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraformgcp%40polar-office-422517-t9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
