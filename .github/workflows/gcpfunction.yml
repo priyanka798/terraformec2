@@ -36,6 +36,6 @@ jobs:
           --gen2 \
           --region=us-central1 \
           --runtime=python310 \
-          --source=.github/source/source.zip \
+          --source=.terraformec2/source.zip \
           --entry-point=hello_world \
           --trigger-http
