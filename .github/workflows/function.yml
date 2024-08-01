@@ -31,6 +31,6 @@ jobs:
           --gen2 \
           --region=us-central1 \
           --runtime=python310 \
-          --source=.github/source/main.py \
+          --source=main.py \
           --entry-point=hello_world \
           --trigger-http
