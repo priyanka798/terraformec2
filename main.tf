@@ -31,5 +31,5 @@ resource "google_cloudfunctions_function" "my_function" {
     environment = "production"
   }
 
-  timeout = 540s
+  timeout = "540s"  # Corrected to use quotes
 }
