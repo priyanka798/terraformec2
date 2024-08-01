@@ -1,11 +1,9 @@
-
-
 name: Deploy Cloud Function
 
 on:
   push:
     branches:
-      - main  # Change to your desired branch
+      - main
 
 jobs:
   deploy:
@@ -14,6 +12,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+
+    - name: Print current directory
+      run: pwd
+
+    - name: List files in the .github directory
+      run: ls -R .github
 
     - name: Authenticate to GCP
       uses: google-github-actions/auth@v1
@@ -29,9 +33,9 @@ jobs:
     - name: Deploy Cloud Function
       run: |
         gcloud functions deploy hello_world \
-    --gen2 \
-    --region=us-central1 \
-    --runtime=python310 \
-    --source=.github/source/source.zip \
-    --entry-point=hello_world \
-    --trigger-http
+          --gen2 \
+          --region=us-central1 \
+          --runtime=python310 \
+          --source=.github/source.zip \
+          --entry-point=hello_world \
+          --trigger-http
