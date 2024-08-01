@@ -16,8 +16,8 @@ jobs:
     - name: Print current directory
       run: pwd
 
-    - name: List files in the current directory
-      run: ls -R
+    - name: List files in the .github directory
+      run: ls -R .github
 
     - name: Authenticate to GCP
       uses: google-github-actions/auth@v1
