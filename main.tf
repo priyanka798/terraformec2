@@ -14,15 +14,14 @@ provider "google" {
 
 resource "google_cloudfunctions_function" "my_function" {
   name        = "my-cloud-function"
-  description = "A simple Cloud Function"
-  runtime     = "python310"  # Specify the runtime, e.g., python310
-  entry_point = "hello_world" # The function to execute within your code
-  available_memory_mb = 256  # Optional: Memory allocation
+  runtime     = "python310"
+  entry_point = "hello_world"
+  available_memory_mb = 256
 
-  source_archive_bucket = "bucket251094"  # The name of the bucket with your code
-  source_archive_object = "function-source.zip" # The zip file with your code
+  source_archive_bucket = "bucket251094"
+  source_archive_object = "function-source.zip"
 
-  trigger_http = true  # HTTP trigger for the function
+  trigger_http = true
 
   environment_variables = {
     EXAMPLE_ENV_VAR = "example-value"
@@ -32,6 +31,5 @@ resource "google_cloudfunctions_function" "my_function" {
     environment = "production"
   }
 
-  # Timeout for the function in seconds
-  timeout = 540s
+  timeout = "540s"
 }
